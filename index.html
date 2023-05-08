@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Landing Page - Novo Carro</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#features">Recursos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="about">
+            <h1>Novo Carro Lançado!</h1>
+            <img src="https://picsum.photos/id/111/1100/664" alt="Novo Carro">
+            <p>
+                Informações sobre o novo carro, incluindo características técnicas e destaques.
+            </p>
+        </section>
+
+        <section id="features">
+            <h2>Recursos Principais</h2>
+            <ul>
+                <li>Recurso 1</li>
+                <li>Recurso 2</li>
+                <li>Recurso 3</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Entre em Contato</h2>
+            <form id="contact-form" action="#" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
